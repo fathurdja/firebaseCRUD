@@ -39,24 +39,24 @@ class _DataPageState extends State<DataPage> {
         title: Text(isEdit ? "Edit Data" : "Tambah Data"),
       ),
       body: Padding(
-        padding: EdgeInsets.all(8),
+        padding: const EdgeInsets.all(8),
         child: Column(
           children: [
-            SizedBox(
+            const SizedBox(
               height: 40,
             ),
             inputData(
               controller: nama,
               title: "nama",
             ),
-            SizedBox(
+            const SizedBox(
               height: 40,
             ),
             inputData(
               controller: nik,
               title: "nik",
             ),
-            SizedBox(
+            const SizedBox(
               height: 40,
             ),
             ElevatedButton(
